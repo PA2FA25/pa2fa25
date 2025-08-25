@@ -4,5 +4,8 @@
     "inlineChat.lineEmptyHint": false,
     "inlineChat.lineNaturalLanguageHint": false,
     "workbench.editor.empty.hint": "hidden",
-    "terminal.integrated.initialHint": false
+    "terminal.integrated.initialHint": false,
+    "github.copilot.enable": {
+      "*": false
+    },
 }
