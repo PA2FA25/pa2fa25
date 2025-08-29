@@ -1,11 +1,10 @@
-# Makefile for Exercise 1
+# Makefile for Lab 5
 CXX = g++
-MAIN = lab_1
+MAIN = lab_5
 CPP_FILES = 
 H_FILES = 
 CXXFLAGS = -Wall -Wextra -pedantic -g
 python = python
-
 # Type 'make' to create the executable
 ${MAIN}: ${MAIN}.cpp ${H_FILES} ${CPP_FILES}
 	${CXX} ${CXXFLAGS} ${MAIN}.cpp ${CPP_FILES} -o $@

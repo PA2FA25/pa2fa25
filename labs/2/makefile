@@ -4,7 +4,7 @@ MAIN = lab_2
 CPP_FILES = 
 H_FILES = 
 CXXFLAGS = -Wall -Wextra -pedantic -g
-python = python2
+python = python
 
 # Type 'make' to create the executable
 ${MAIN}: ${MAIN}.cpp ${H_FILES} ${CPP_FILES}
